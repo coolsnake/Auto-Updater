@@ -2,15 +2,13 @@
 
 A Qt C++ project that allows application to download updated installer and install it automatically.
 
-## Getting Started
-
-These instructions will help you add this plugin to your project.
-
 ## Built with
 [Qt5](https://www.qt.io/developers/) - Cross-platform software development for embedded & desktop
 
-### Prerequisites
+## Getting Started
+These instructions will help you add this plugin to your project.
 
+### Prerequisites
 Things needed for this plugin:
 * libeay32.dll or libeay64.dll
 * ssleay32.dll or ssleay64.dll
