@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UpdaterMainWindow</class>
+ <widget class="QDialog" name="UpdaterMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>372</width>
+    <height>408</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>230</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font:15px &quot;Roboto Medium&quot;;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>260</y>
+     <width>351</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="value">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnDownload">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>350</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	border: none;
+	font: 14px &quot;Roboto Medium&quot;;
+	color:  rgb( 255, 255, 255 );
+	background-color: rgb(253, 188, 64);
+}
+
+QPushButton::hover {
+    background-color: rgb(255, 220, 141);
+	font: 14px &quot;Roboto&quot;;
+	color:  rgb( 255, 255, 255 );
+
+ }
+QPushButton:pressed {
+    background-color: rgb(255,139,0);
+	font: 14px &quot;Roboto&quot;;
+	color:  rgb( 198,198,198);
+ }
+QPushButton::disable{
+    background-color: gray;
+	font: 14px &quot;Roboto&quot;;
+ }</string>
+   </property>
+   <property name="text">
+    <string>Download</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblIcon">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>50</y>
+     <width>151</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image:url(:/icon/images/default_icon.png);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnClose">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>350</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	border: none;
+	font: 14px &quot;Roboto Medium&quot;;
+	color:  rgb( 255, 255, 255 );
+	background-color: rgb(253, 188, 64);
+}
+
+QPushButton::hover {
+    background-color: rgb(255, 220, 141);
+	font: 14px &quot;Roboto&quot;;
+	color:  rgb( 255, 255, 255 );
+
+ }
+QPushButton:pressed {
+    background-color: rgb(255,139,0);
+	font: 14px &quot;Roboto&quot;;
+	color:  rgb( 198,198,198);
+ }</string>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>0</y>
+     <width>401</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:#FDBC40;
+color:#ffffff;
+font:15px &quot;Roboto Medium&quot;;</string>
+   </property>
+   <property name="text">
+    <string>New Updates Available</string>
+   </property>
+   <property name="indent">
+    <number>24</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblLatestVersion">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>200</y>
+     <width>351</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Roboto Medium</family>
+     <pointsize>-1</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font:15px &quot;Roboto Medium&quot;;</string>
+   </property>
+   <property name="text">
+    <string>LATEST VERSION</string>
+   </property>
+   <property name="indent">
+    <number>6</number>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

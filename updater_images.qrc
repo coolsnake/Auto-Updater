@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>images/btn_cross_click.png</file>
+        <file>images/btn_cross_hover.png</file>
+        <file>images/btn_cross_normal.png</file>
+        <file>images/default_icon.png</file>
+    </qresource>
+</RCC>
